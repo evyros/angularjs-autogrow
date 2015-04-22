@@ -35,7 +35,7 @@ textarea {
 }
 ```
 
-HTML code: add the directive to the <textarea> element:
+Add the directive to the `<textarea>` element:
 ```html
 <textarea autogrow></textarea>
 ```
