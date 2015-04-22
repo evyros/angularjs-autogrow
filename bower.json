@@ -1,0 +1,20 @@
+{
+  "name": "angular-autogrow",
+  "main": "angular-autogrow.min.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/CodingAspect/Angular-Autogrow",
+  "authors": [
+    "Evyatar Rosner <evyatar@codingaspect.com>"
+  ],
+  "description": "Angular high-performance directive for auto-grow / auto-resize of textarea elements on typing.",
+  "keywords": [
+    "angular-textarea",
+    "auto-grow-textarea",
+    "auto-resize-textarea",
+    "auto-expand-textarea"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "index.html"
+  ]
+}
