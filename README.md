@@ -7,7 +7,7 @@ Angular directive for auto-grow / auto-resize of textarea elements on typing.
 
 A full explanation of the code can be found on my [blog post](http://codingaspect.com/blog/textarea-auto-grow-resizing-textarea-to-fit-text-height) along with a jQuery plugin and an Angular directive with this technique.
 
-#### Bower Installation
+#### Install via Bower
 ```bash
 bower install angular-autogrow
 ```
