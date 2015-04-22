@@ -52,7 +52,7 @@ You can limit the auto-growing of the textarea element by using `max-lines` attr
 <textarea autogrow max-lines="3"></textarea>
 ```
 
-######
+
 ### Set Initial Rows
 
 You can set the initial line number using `rows` attribute:
