@@ -61,6 +61,13 @@
                 $scope.maxAllowedHeight = ($scope.lineHeight * $scope.attrs.maxLines) - $scope.offset;
 
                 $element[0].addEventListener('input', $scope.autogrowFn);
+
+                /**
+                 * Auto-resize when there's content on page load
+                 */
+                if($element[0].value != ''){
+                    $scope.autogrowFn();
+                }
             }
         }
     }]);
