@@ -1,5 +1,5 @@
-# Angular-Autogrow
-Angular directive for auto-grow / auto-resize of textarea elements on typing.
+# angularjs-autogrow
+AngularJS directive for auto-grow / auto-resize of textarea elements on typing.
 
  * Works in all cases: expands on line breaks and word breaks.
  * Great Performance: minimal DOM manipulation and no watchers.
