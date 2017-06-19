@@ -1,6 +1,6 @@
 (function(){
     'use strict';
-    angular.module('angular-autogrow', []).directive('autogrow', ['$window', function($window){
+    angular.module('angularjs-autogrow', []).directive('autogrow', ['$window', function($window){
         return {
             link: function($scope, $element, $attrs){
 

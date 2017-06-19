@@ -1,8 +1,8 @@
 {
   "name": "angularjs-autogrow",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "AngularJS 1.x directive for auto-grow / auto-resize of textarea elements",
-  "main": "angular-autogrow.js",
+  "main": "angularjs-autogrow.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

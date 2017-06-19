@@ -5,12 +5,8 @@ AngularJS directive for auto-grow / auto-resize of textarea elements on typing.
  * Great Performance: minimal DOM manipulation and no watchers.
  * Allows limitation of auto-growing so a scrollbar will appear after X lines of content.
 
-A full explanation of the code can be found on my [blog post](http://codingaspect.com/blog/textarea-auto-grow-resizing-textarea-to-fit-text-height) along with a jQuery plugin and an Angular directive with this technique.
-
-#### Install via Bower
-```bash
-bower install angular-autogrow
-```
+## Installation via NPM
+```npm install angularjs-autogrow --save```
 
 ######
 
@@ -19,12 +15,12 @@ bower install angular-autogrow
 Include `angular-autogrow.min.js` file in `<head>` section of the HTML:
 
 ```html
-<script type="text/javascript" src="angular-autogrow.min.js"></script>
+<script type="text/javascript" src="angularjs-autogrow.min.js"></script>
 ```
 
-Include `angular-autogrow` dependency on your angular module:
+Include `angularjs-autogrow` dependency in your angular module:
 ```javascript
-var app = angular.module("app", ["angular-autogrow"]);
+var app = angular.module("app", ["angularjs-autogrow"]);
 ```
 
 It's also recommended to add those two CSS properties to make things stable:
