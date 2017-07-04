@@ -55,3 +55,11 @@ You can set the initial line number using `rows` attribute:
 ```html
 <textarea autogrow rows="1"></textarea>
 ```
+
+
+### Autogrow on css properties change
+
+You can define which CSS properties have to be watched in order to trigger the auto-growing:
+```html
+<textarea autogrow="font-family,font-size"></textarea>
+```
