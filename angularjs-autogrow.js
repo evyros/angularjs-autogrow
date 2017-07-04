@@ -70,8 +70,7 @@
                     function() {
                       return $element.css(property);
                     },
-                    styleChangedCallBack,
-                    true
+                    styleChangedCallBack
                   );
                 });
 
