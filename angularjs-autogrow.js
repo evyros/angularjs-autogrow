@@ -63,7 +63,7 @@
                 $scope.$watch($attrs.ngModel, $scope.autogrowFn);
 
                 // Extract css properties to spy on
-                var spyProps = $attrs.autogrow.split(',');
+                var spyProps = $attrs.autogrow ? $attrs.autogrow.split(',') : [];
                 angular.forEach(spyProps, function(property) {
                   // Set a watcher on each property
                   $scope.$watch(
