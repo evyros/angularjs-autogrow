@@ -62,6 +62,29 @@
 
                 $scope.$watch($attrs.ngModel, $scope.autogrowFn);
 
+                // Extract css properties to spy on
+                var spyProps = $attrs.autogrow ? $attrs.autogrow.split(',') : [];
+                angular.forEach(spyProps, function(property) {
+                  // Set a watcher on each property
+                  $scope.$watch(
+                    function() {
+                      return $element.css(property);
+                    },
+                    styleChangedCallBack
+                  );
+                });
+
+                /**
+                 *
+                 * @param newValue
+                 * @param oldValue
+                 */
+                function styleChangedCallBack(newValue, oldValue) {
+                  if (newValue !== oldValue) {
+                    $scope.autogrowFn();
+                  }
+                }
+
                 /**
                  * Auto-resize when there's content on page load
                  */
